@@ -196,5 +196,3 @@ Include:
 
 ✨ *Prepared for the Introduction to Phylogenetics Workshop*
 📍 *University of Oxford*
-
-```
