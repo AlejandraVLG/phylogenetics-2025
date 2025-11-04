@@ -1,6 +1,7 @@
 # **Introduction to Phylogenetics**
 
-Welcome to the *Introduction to Phylogenetics* workshop!  
+Welcome to the *Introduction to Phylogenetics* workshop
+
 This course provides a hands-on overview of molecular phylogenetics — from multiple sequence alignment to Bayesian inference with BEAST.
 
 ---
