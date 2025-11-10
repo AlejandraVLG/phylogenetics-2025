@@ -1,6 +1,6 @@
 # **Introduction to Phylogenetics**
 
-Welcome to the *Introduction to Phylogenetics* workshop
+Welcome to the *Introduction to Phylogenetics* module
 
 This course provides a hands-on overview of molecular phylogenetics
 
@@ -194,5 +194,5 @@ Include:
 
 ---
 
-✨ *Prepared for the Introduction to Phylogenetics Workshop*
+*Prepared for the Introduction to Phylogenetics module*
 📍 *University of Oxford*
