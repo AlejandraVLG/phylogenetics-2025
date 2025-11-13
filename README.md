@@ -104,7 +104,7 @@ a.	Why does it take longer?
 4.	Compare aligned and unaligned files: what are the important differences?
 5.	Investigate the alignment confidence using T-COFFEE (optional)
    This is slow, so please create a sub-alignment with only 10-20 sequences.
-   If T-COFFEE is not installed on your computer try the web server at https://www.ebi.ac.uk/jdispatcher/msa/tcoffee
+   If T-COFFEE is not installed on your computer try the web server at (https://tcoffee.crg.eu/apps/tcoffee)
 
 
 ---
