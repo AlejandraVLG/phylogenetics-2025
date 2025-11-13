@@ -122,19 +122,19 @@ Compare topologies using **FigTree**.
 ### Standard bootstrap and TBE:
 
 ```bash
-iqtree2 -s primate-mtDNA_mafft-aligned.fasta -m GTR -b 100 --tbe --prefix iqtree_tbe
+iqtree3 -s primate-mtDNA_mafft-aligned.fasta -m GTR -b 100 --tbe --prefix iqtree_tbe
 ```
 
 ### Ultra-Fast Bootstrap:
 
 ```bash
-iqtree2 -s primate-mtDNA_mafft-aligned.fasta -m GTR -B 1000 --prefix iqtree_ufboot
+iqtree3 -s primate-mtDNA_mafft-aligned.fasta -m GTR -B 1000 --prefix iqtree_ufboot
 ```
 
 ###  aLRT-SH test:
 
 ```bash
-iqtree2 -s primate-mtDNA_mafft-aligned.fasta -m GTR --alrt 1000 --prefix iqtree_alrt
+iqtree3 -s primate-mtDNA_mafft-aligned.fasta -m GTR --alrt 1000 --prefix iqtree_alrt
 ```
 
 ---
@@ -142,6 +142,7 @@ iqtree2 -s primate-mtDNA_mafft-aligned.fasta -m GTR --alrt 1000 --prefix iqtree_
 ## 🧬 **Practical 5 — Bayesian Phylogenetic Inference (BEAST)**
 
 1. Create input `.xml` file in **BEAUti**
+   It can be downloaded here: https://beast.community/programs
 
    ```bash
    beauti
@@ -152,21 +153,21 @@ iqtree2 -s primate-mtDNA_mafft-aligned.fasta -m GTR --alrt 1000 --prefix iqtree_
    * Trees → Yule process
    * Generate BEAST file
 
-2. Run BEAST:
+3. Run BEAST on terminal:
 
    ```bash
    beast primate-mtDNA_BEAST.xml
    ```
 
-3. Analyse in **Tracer** (load `.log` file).
+4. Analyse in **Tracer** (load `.log` file).
 
-4. Process with **TreeAnnotator**:
+5. Process with **TreeAnnotator**:
 
    ```bash
    treeannotator
    ```
 
-5. Visualize annotated tree in **FigTree**.
+6. Visualize annotated tree in **FigTree**.
 
 ---
 
