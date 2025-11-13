@@ -104,13 +104,13 @@ Then run the same for SARS-CoV-2 sequences — why does it take longer?
 ###  Infer a tree with a GTR model:
 
 ```bash
-iqtree2 -s primate-mtDNA_mafft-aligned.fasta -m GTR --prefix primate-mtDNA_iqtreeGTR
+iqtree3 -s primate-mtDNA_mafft-aligned.fasta -m GTR --prefix primate-mtDNA_iqtreeGTR
 ```
 
 ###  Find the best substitution model:
 
 ```bash
-iqtree2 -s primate-mtDNA_mafft-aligned.fasta --prefix primate-mtDNA_iqtreeModelFinder
+iqtree3 -s primate-mtDNA_mafft-aligned.fasta --prefix primate-mtDNA_iqtreeModelFinder
 ```
 
 Compare topologies using **FigTree**.
