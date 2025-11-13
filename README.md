@@ -97,6 +97,16 @@ mafft primate-mtDNA_unaligned.fasta > primate-mtDNA_mafft-aligned.fasta
  Compare aligned vs unaligned files — what changes?
 Then run the same for SARS-CoV-2 sequences — why does it take longer?
 
+1.	Run MAFFT on the primate_mtDNA.fasta file in 
+2.	Compare aligned and unaligned files: what are the main differences?
+3.	Run MAFFT also on the SARS-CoV-2sequences.fa file in 
+a.	Why does it take longer?
+4.	Compare aligned and unaligned files: what are the important differences?
+5.	Investigate the alignment confidence using T-COFFEE (optional)
+   This is slow, so please create a sub-alignment with only 10-20 sequences.
+   If T-COFFEE is not installed on your computer try the web server at https://www.ebi.ac.uk/jdispatcher/msa/tcoffee
+
+
 ---
 
 ## 🧬 **Practical 3 — Maximum Likelihood Phylogenetics (IQ-TREE)**
